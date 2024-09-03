@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="header.jpg" alt="Header Image">
+        <h1>Anything You Want is Here</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="nav-drawer">
+            <button class="drawer-toggle">☰</button>
+            <div class="drawer-content">
+                <ul>
+                    <li><a href="#shoes">SHOES</a></li>
+                    <li><a href="#shirts">CLOTHING</a></li>
+                    <li><a href="#gear">GEAR</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main-content">
+        <ul>
+            <li><a href="#shoes">SHOES</a></li>
+            <li><a href="#products">CLOTHING</a></li>
+            <li><a href="#gear">GEAR</a></li>
+        </ul>
+    </div>
+
+    <div id="home" class="images-products">
+        <h2 class="carousel-title">New Products</h2>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="gb shirt 1.jpg" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="gb shirt 2.jpg" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="gb shirt 3.jpg" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="model 1_batcheditor_fotor.jpg" alt="Image 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="model 2_batcheditor_fotor.jpg" alt="Image 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="gb shirt 3.jpg" alt="Image 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="text-1">
+        <h2>About Section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ad eveniet aut optio laudantium quos molestias possimus qui, voluptate suscipit facere dolore at! Nesciunt laudantium explicabo eaque? Quis, laborum nulla?</p>
+    </div>
+
+    <div id="contact" class="text-1">
+        <h2>Contact Us Section</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sed vero dolorem modi ipsam exercitationem, ipsa facere suscipit nam maxime beatae praesentium similique! In cumque culpa beatae est blanditiis veritatis!</p>
+    </div>
+
+    <div id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="product-card">
+            <a href="#" class="product-link" data-image="gb shirt 1.jpg">
+                <img src="gb shirt 1.jpg" alt="Product 1">
+            </a>
+            <div class="product-info">
+                <h3>Product Title 1</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$29.99</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+
+       <div id="popup" class="popup">
+            <span class="close">&times;</span>
+            <img class="popup-content" id="popup-img">
+            <div id="caption"></div>
+        </div>
+        
+        <div class="product-card">
+            <img src="gb shirt 2.jpg" alt="Product 2">
+            <div class="product-info">
+                <h3>Product Title 2</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$39.99</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="gb shirt 3.jpg" alt="Product 3">
+            <div class="product-info">
+                <h3>Product Title 3</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$49.99</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+        <!-- New Product Card -->
+        <div class="product-card">
+            <img src="Gb kobe.jpg" alt="Product 4">
+            <div class="product-info">
+                <h3>Product Title 4</h3>
+                <p class="product-description">This is a short description of the new product.</p>
+                <p class="product-price">$59.99</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="Gb kobe.jpg" alt="Product 4">
+            <div class="product-info">
+                <h3>Product Title 4</h3>
+                <p class="product-description">This is a short description of the new product.</p>
+                <p class="product-price">$59.99</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+        <!-- Add more product cards as needed -->
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
